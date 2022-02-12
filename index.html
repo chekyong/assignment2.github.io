@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<title> THE TRAIN STATION </title>
+<link rel="icon" href= "https://thumbs.dreamstime.com/b/yellow-black-information-sign-dumbbell-icon-rounded-square-road-frame-95762579.jpg" sizes="192x192">
+<head>
+ <meta charset="utf-8" />
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+  <a class="active" href="index.html">Home</a>
+  <a href="aboutus.html">About us</a>
+  <a href="packages.html">Packages</a>
+  <a href="merchandise.html">Merchandise</a>
+  <a href="contactus.html">Contact us</a>
+  </div>
+</div>
+
+<img src="dumbbellicon2.png" alt="logo" style="height:70px; width=70px;margin-left:15px;margin-top:15px;float:left">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<span style="font-size:40px;cursor:pointer;margin-left:15px;float:left" onclick="openNav();">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "20%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+  <h1 style= "font-size: 50px; text-align:center"> THE TRAIN STATION </h1>
+
+<video width="100%" autoplay muted loop>
+  <source src="Homepagevideo.mp4" type="video/mp4">
+
+</video>
+
+
+<h1 style="text-align:center; font-size:50px">Get in the Zone</h1>
+<hr style= "height:10px; background-color:black">
+
+<h1> Drive </h1>
+<img style="height:350px;width:500px; border-radius:20px; float:right" src="battleropes.jpg">
+<p> The recruitment of both elements of personal and group training brings you the best of both worlds. Giving you opportunities to unleash your potential in different settings.</p>
+<h2 style="font-family:futura"><b>Personal Training/Buddy Training</b></h2>
+<p> In this setting, our trainers are trained to give personalised programmes to cater to your unique goals. Our trainers will be there every step of the way, to help you keep track of your progress, motivate you, and work towards your goals. Trust the process.
+<h2 style="font-family:futura"><b>Group Training</b></h2>
+<p>The motivation and encouragement in a Group Training setting create an exciting environment for our members to achieve their goals. We aim to create communities that promote fitness, good health and growth in and out of the studio. This is not a lone journey, everyone is in this together, to emerge stronger and better as one. </p>
+
+<br>
+<br>
+<br>
+
+<hr style= "height:10px; background-color:black">
+
+<h1 style=" text-align:right"> Revolutionary </h1>
+<img style="float:left" src="myzoneheartratemon.png">
+<img style="float:left;height:250px; width:300px"src="myzone%.jpg">
+<p style=" text-align:right"> Our workouts are driven by the robust technology systems in our studios. With the guidance and motivation our trainers, we bring the best out of you. Integrated with MyZone Heart Rate monitor, we can accurately track your workouts, monitor your heart rate, the percentage of your maximum effort, and the total calories burned to help you reach your true potential.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<hr style= "height:10px; background-color:black">
+
+<h1> Results </h1>
+<img src="highfiveinstudio.jpg" style="float:right; height:300px;width:450px; border-radius:20px">
+  <p>Our method keeps members in check and helps them achieve desired results. Systemic tracking and quality feedback from our trainers ensures that our members can adapt well and have a better understanding of their own health and fitness.</p>
+
+  <p>Everyone starts at different fitness levels, but what matters is whether you set your eyes on your OWN goal.</p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<hr style= "height:10px; background-color:black">
+
+<h1 style="text-align:center">One Day OR Day One, YOU CHOOSE.</h1>
+<button class="button" style=margin-left:600px onclick="window.location.href='contactus.html'">
+<span>Enquire Now</span></button>
+
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="battleropes.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="kbaltswing.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="kbaltswing2.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+<p style="text-align:center"> TheTrainStation.Pte.Ltd 2022 </p>
+<p style="text-align:center"> All Copyrights Reserved </p>
+</div>
+
+<script>
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
